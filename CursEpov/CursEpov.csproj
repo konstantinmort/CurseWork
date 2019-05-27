@@ -61,11 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChangeCustomer.cs">
+    <Compile Include="ChangeJO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChangeCustomer.Designer.cs">
-      <DependentUpon>ChangeCustomer.cs</DependentUpon>
+    <Compile Include="ChangeJO.Designer.cs">
+      <DependentUpon>ChangeJO.cs</DependentUpon>
     </Compile>
     <Compile Include="Employees.cs">
       <SubType>Form</SubType>
@@ -93,8 +93,8 @@
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChangeCustomer.resx">
-      <DependentUpon>ChangeCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="ChangeJO.resx">
+      <DependentUpon>ChangeJO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>

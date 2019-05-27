@@ -20,6 +20,7 @@ C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debu
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.csproj.CoreCompileInputs.cache
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.exe
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.pdb
+C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\Furniture1.mdb
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.exe.config
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.exe
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.pdb
