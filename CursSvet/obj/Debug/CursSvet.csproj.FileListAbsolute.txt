@@ -24,3 +24,4 @@ C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debu
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.exe.config
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.exe
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.pdb
+C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.Employees.resources

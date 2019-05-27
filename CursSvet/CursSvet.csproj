@@ -67,11 +67,11 @@
     <Compile Include="ChangeCustomer.Designer.cs">
       <DependentUpon>ChangeCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Seller.cs">
+    <Compile Include="Employees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Seller.Designer.cs">
-      <DependentUpon>Seller.cs</DependentUpon>
+    <Compile Include="Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
     </Compile>
     <Compile Include="Authorization.cs">
       <SubType>Form</SubType>
@@ -115,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeCustomer.resx">
       <DependentUpon>ChangeCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

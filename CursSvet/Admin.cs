@@ -13,16 +13,183 @@ using System.Data.SqlClient;
 namespace CursSvet
 {
     public partial class Admin : Form
-    { 
+    {
         static String connect = "Provider=Microsoft.JET.OLEDB.4.0;data source=DB1\\Furniture1.mdb";
-    OleDbConnection con = new OleDbConnection(connect);
-    
+        OleDbConnection con = new OleDbConnection(connect);
+
         public Admin()
         {
-        InitializeComponent();
-        con.Open();
+            InitializeComponent();
+            con.Open();
+            LoadData();
+            LoadData1();
+            LoadData2();
+            LoadData3();
+            LoadData4();
+            LoadData5();
         }
 
+        private void LoadData()
+        {
+
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Customer ORDER BY ID_customer";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[5]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView1.Rows.Add(s);
+        }
+        private void LoadData1()
+        {
+
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Furniture ORDER BY ID_furniture";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[5]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView2.Rows.Add(s);
+        }
+
+        private void LoadData2()
+        {
+
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Order1 ORDER BY ID_order ";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[5]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView3.Rows.Add(s);
+        }
+
+        private void LoadData3()
+        {
+
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM stock ORDER BY ID_stock";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[4]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView4.Rows.Add(s);
+        }
+        private void LoadData4()
+        {
+
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM [Authorization]";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[4]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView5.Rows.Add(s);
+        }
+        private void LoadData5()
+        {
+
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Employees";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[4]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView6.Rows.Add(s);
+        }
         private void TabPage1_Click(object sender, EventArgs e)
         {
 
@@ -44,9 +211,10 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "INSERT INTO Customer (FIO, Address, Phone) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
+                    string query = "INSERT INTO Customer (ID_customer,FIO, Address, Phone, ID_employees) VALUES ('" + textBox19.Text + "','" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox18.Text + "')";
                     OleDbCommand command = new OleDbCommand(query, con);
                     command.ExecuteNonQuery();
+
                     MessageBox.Show("Добавление успешно выполнено");
                 }
                 catch (Exception es)
@@ -63,7 +231,8 @@ namespace CursSvet
 
         private void Manager_FormClosed(object sender, FormClosedEventArgs e)
         {
-            con.Dispose();
+            Application.Exit();
+            con.Close();
         }
 
         private void FurnitureBindingSource_CurrentChanged(object sender, EventArgs e)
@@ -86,7 +255,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "INSERT INTO Order (Data_order, Data_runtime) VALUES ('" + textBox7.Text + "','" + textBox8.Text + "')";
+                    string query = "INSERT INTO Order1 (ID_order, ID_customer, ID_furniture, Data_order, Data_runtime) VALUES ('" + textBox20.Text + "','" + textBox21.Text + "','" + textBox22.Text + "','" + textBox7.Text + "','" + textBox8.Text + "')";
                     OleDbCommand command = new OleDbCommand(query, con);
                     command.ExecuteNonQuery();
                     MessageBox.Show("Добавление успешно выполнено");
@@ -103,9 +272,10 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "INSERT INTO Furniture (Title, Price, Amount) VALUES ('" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "')";
+                    string query = "INSERT INTO Furniture (ID_furniture, ID_stock, Title, Price, Amount) VALUES ('" + textBox16.Text + "','" + textBox15.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "')";
                     OleDbCommand command = new OleDbCommand(query, con);
                     command.ExecuteNonQuery();
+
                     MessageBox.Show("Добавление успешно выполнено");
                 }
                 catch (Exception es)
@@ -120,7 +290,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "INSERT INTO Stock (Name_stock, Address, Phone) VALUES ('" + textBox9.Text + "','" + textBox10.Text + "','" + textBox11.Text + "')";
+                    string query = "INSERT INTO Stock (ID_stock, Name_stock, Address, Phone) VALUES ('" + textBox23.Text + "','" + textBox9.Text + "','" + textBox10.Text + "','" + textBox11.Text + "')";
                     OleDbCommand command = new OleDbCommand(query, con);
                     command.ExecuteNonQuery();
                     MessageBox.Show("Добавление успешно выполнено");
@@ -151,7 +321,210 @@ namespace CursSvet
 
         private void Button6_Click(object sender, EventArgs e)
         {
+            string query = "DELETE from Customer";
 
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            command.ExecuteNonQuery();
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Customer ORDER BY ID_customer";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[5]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView1.Rows.Add(s);
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            dataGridView2.Rows.Clear();
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Furniture ORDER BY ID_furniture";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[5]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView2.Rows.Add(s);
+        }
+
+        private void Button15_Click(object sender, EventArgs e)
+        {
+            dataGridView3.Rows.Clear();
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Order1 ORDER BY ID_order ";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[5]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView3.Rows.Add(s);
+        }
+
+        private void Button16_Click(object sender, EventArgs e)
+        {
+            dataGridView4.Rows.Clear();
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM stock ORDER BY ID_stock";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[4]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView4.Rows.Add(s);
+        }
+
+        private void Button17_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    string query = "INSERT INTO [Authorization] ([ID_employees], [Login], [Password], [Preffix]) VALUES ('" + textBox17.Text + "','" + textBox12.Text + "','" + textBox13.Text + "','" + textBox14.Text + "')";
+                    OleDbCommand command = new OleDbCommand(query, con);
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Добавление успешно выполнено");
+                }
+                catch (Exception es)
+                {
+                    MessageBox.Show(es.Message);
+                }
+            }
+        }
+
+        private void Button18_Click(object sender, EventArgs e)
+        {
+            dataGridView5.Rows.Clear();
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM [Authorization]";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[4]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView5.Rows.Add(s);
+        }
+
+        private void Button19_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    string query = "INSERT INTO Employees ([ID_employees], [Firstname], [Lastname], [Salary1]) VALUES ('" + textBox24.Text + "','" + textBox25.Text + "','" + textBox26.Text + "','" + textBox27.Text + "')";
+                    OleDbCommand command = new OleDbCommand(query, con);
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Добавление успешно выполнено");
+                }
+                catch (Exception es)
+                {
+                    MessageBox.Show(es.Message);
+                }
+            }
+        }
+
+        private void Button22_Click(object sender, EventArgs e)
+        {
+            dataGridView6.Rows.Clear();
+            OleDbConnection con = new OleDbConnection(connect);
+            con.Open();
+            string query = "SELECT * FROM Employees";
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            OleDbDataReader reader = command.ExecuteReader();
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[4]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+            }
+            reader.Close();
+            con.Close();
+
+            foreach (string[] s in data)
+                dataGridView6.Rows.Add(s);
         }
     }
 }

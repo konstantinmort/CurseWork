@@ -48,7 +48,7 @@ namespace CursSvet
                 && !string.IsNullOrEmpty(textBox1.Text) && !string.IsNullOrWhiteSpace(textBox1.Text))
             {
                 //Запрос к БД с получением пароля, логина и тип доступа.
-                string autori = "SELECT Login, Password, Preffix FROM [Authorization] ORDER BY ID_manager";
+                string autori = "SELECT Login, Password, Preffix FROM [Authorization] ORDER BY ID_employees";
                 OleDbCommand command = new OleDbCommand(autori, con);
                 OleDbDataReader reader = command.ExecuteReader();
 
@@ -57,7 +57,7 @@ namespace CursSvet
                 {
 
                     //Если есть, то заходит под менеджера.
-                    if (Login == reader[0].ToString() && Password == reader[1].ToString() && reader[2].ToString() == "A")
+                    if (Login == reader[0].ToString() && Password == reader[1].ToString() && reader[2].ToString() == "1")
                     {
                         Admin a = new Admin();
                         a.Show();
@@ -67,9 +67,9 @@ namespace CursSvet
 
                     }
                     //Если тип доступа другой то под администратором.
-                    else if (Login == reader[0].ToString() && Password == reader[1].ToString() && reader[2].ToString() == "B")
+                    else if (Login == reader[0].ToString() && Password == reader[1].ToString() && reader[2].ToString() == "2")
                     {
-                        Seller b = new Seller();
+                        Employees b = new Employees();
                         b.Show();
                         this.Hide();
                         con.Close();
