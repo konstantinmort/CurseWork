@@ -24,3 +24,7 @@ C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debu
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.exe
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\bin\Debug\CursSvet.pdb
 C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.Employees.resources
+C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.ChangeEmployees.resources
+C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.ChangeFurniture.resources
+C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.ChangeOrder.resources
+C:\Users\david\Desktop\Репозиторий курсовая\CursSvet\obj\Debug\CursSvet.ChangeStock.resources

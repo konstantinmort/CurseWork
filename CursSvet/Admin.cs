@@ -314,14 +314,13 @@ namespace CursSvet
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            this.Hide();
             ChangeCustomer cS = new ChangeCustomer();
             cS.ShowDialog();
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            string query = "DELETE from Customer";
+            string query = "DELETE from Customer where ID_customer =" + textBox28.Text;
 
             OleDbCommand command = new OleDbCommand(query, con);
 
@@ -525,6 +524,125 @@ namespace CursSvet
 
             foreach (string[] s in data)
                 dataGridView6.Rows.Add(s);
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            string query = "DELETE from Furniture where ID_furniture =" + textBox29.Text;
+
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            command.ExecuteNonQuery();
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            string query = "DELETE from [Order1] where ID_order =" + textBox30.Text;
+
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            command.ExecuteNonQuery();
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+            string query = "DELETE from Stock where ID_stock =" + textBox31.Text;
+
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            command.ExecuteNonQuery();
+        }
+
+        private void Button23_Click(object sender, EventArgs e)
+        {
+            string query = "DELETE from [Authorization] where ID_employees =" + textBox32.Text;
+
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            command.ExecuteNonQuery();
+        }
+
+        private void Button21_Click(object sender, EventArgs e)
+        {
+            string query = "DELETE from Employees where ID_employees =" + textBox32.Text;
+
+            OleDbCommand command = new OleDbCommand(query, con);
+
+            command.ExecuteNonQuery();
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            ChangeFurniture cS = new ChangeFurniture();
+            cS.ShowDialog();
+        }
+
+        private void Button9_Click(object sender, EventArgs e)
+        {
+            ChangeOrder cS = new ChangeOrder();
+            cS.ShowDialog();
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            ChangeStock cS = new ChangeStock();
+            cS.ShowDialog();
+        }
+
+        private void Button20_Click(object sender, EventArgs e)
+        {
+            ChangeEmployees cS = new ChangeEmployees();
+            cS.ShowDialog();
+        }
+
+        private void Button25_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dataGridView3.RowCount; i++)
+                if (dataGridView3[1, i].FormattedValue.ToString().
+                    Contains(textBox34.Text.Trim()))
+                {
+                    dataGridView3.CurrentCell = dataGridView3[0, i];
+                    return;
+                }
+            for (int i = 0; i < dataGridView1.RowCount; i++)
+                if (dataGridView1[1, i].FormattedValue.ToString().
+                    Contains(textBox34.Text.Trim()))
+                {
+                    dataGridView1.CurrentCell = dataGridView1[0, i];
+                    return;
+                }
+            for (int i = 0; i < dataGridView5.RowCount; i++)
+                if (dataGridView5[1, i].FormattedValue.ToString().
+                    Contains(textBox34.Text.Trim()))
+                {
+                    dataGridView5.CurrentCell = dataGridView5[0, i];
+                    return;
+                }
+            for (int i = 0; i < dataGridView2.RowCount; i++)
+                if (dataGridView2[0, i].FormattedValue.ToString().
+                    Contains(textBox34.Text.Trim()))
+                {
+                    dataGridView2.CurrentCell = dataGridView2[0, i];
+                    return;
+                }
+        }
+
+        private void Button24_Click(object sender, EventArgs e)
+        {
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+                printDocument1.Print();
+        }
+
+        private void PrintPreviewDialog1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PrintDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            var bitmap = new Bitmap(Width, Height);
+            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
+            e.Graphics.DrawImage(bitmap, new Point(100, 70));
         }
     }
 }

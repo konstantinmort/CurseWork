@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.печатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.печатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.каталогToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employees));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label19 = new System.Windows.Forms.Label();
@@ -110,7 +107,11 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuStrip1.SuspendLayout();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -122,38 +123,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.печатьToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(859, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // печатьToolStripMenuItem
-            // 
-            this.печатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.печатьToolStripMenuItem1});
-            this.печатьToolStripMenuItem.Name = "печатьToolStripMenuItem";
-            this.печатьToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.печатьToolStripMenuItem.Text = "Файл";
-            // 
-            // печатьToolStripMenuItem1
-            // 
-            this.печатьToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.каталогToolStripMenuItem});
-            this.печатьToolStripMenuItem1.Name = "печатьToolStripMenuItem1";
-            this.печатьToolStripMenuItem1.Size = new System.Drawing.Size(113, 22);
-            this.печатьToolStripMenuItem1.Text = "Печать";
-            // 
-            // каталогToolStripMenuItem
-            // 
-            this.каталогToolStripMenuItem.Name = "каталогToolStripMenuItem";
-            this.каталогToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.каталогToolStripMenuItem.Text = "Каталог";
-            // 
             // tabControl1
             // 
             this.tabControl1.AllowDrop = true;
@@ -161,7 +130,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl1.Location = new System.Drawing.Point(0, 24);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -417,6 +386,7 @@
             this.button7.TabIndex = 8;
             this.button7.Text = "Изменить";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
             // button2
             // 
@@ -608,6 +578,7 @@
             this.button9.TabIndex = 6;
             this.button9.Text = "Изменить";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // textBox8
             // 
@@ -748,6 +719,7 @@
             this.button11.TabIndex = 8;
             this.button11.Text = "Изменить";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.Button11_Click);
             // 
             // button4
             // 
@@ -809,6 +781,7 @@
             // 
             // dataGridView4
             // 
+            this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -819,7 +792,7 @@
             this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Left;
             this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(443, 362);
+            this.dataGridView4.Size = new System.Drawing.Size(543, 362);
             this.dataGridView4.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn9
@@ -842,18 +815,63 @@
             this.dataGridViewTextBoxColumn12.HeaderText = "Номер телефона";
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             // 
+            // textBox34
+            // 
+            this.textBox34.Location = new System.Drawing.Point(125, 0);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(240, 20);
+            this.textBox34.TabIndex = 6;
+            // 
+            // button25
+            // 
+            this.button25.FlatAppearance.BorderSize = 0;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Location = new System.Drawing.Point(56, 0);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(63, 19);
+            this.button25.TabIndex = 5;
+            this.button25.Text = "Поиск";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Location = new System.Drawing.Point(0, 0);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(63, 19);
+            this.button24.TabIndex = 4;
+            this.button24.Text = "Печать";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.Button24_Click);
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Document = this.printDocument1;
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.PrintDocument1_PrintPage);
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(859, 418);
+            this.Controls.Add(this.textBox34);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button24);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.menuStrip1);
             this.Name = "Employees";
-            this.Text = "Employees";
+            this.Text = "Сотрудник";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Employees_FormClosed);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -873,11 +891,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem каталогToolStripMenuItem;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label19;
@@ -956,5 +969,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

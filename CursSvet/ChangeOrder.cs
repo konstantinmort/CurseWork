@@ -12,20 +12,14 @@ using System.Data.SqlClient;
 
 namespace CursSvet
 {
-    public partial class ChangeCustomer : Form
+    public partial class ChangeOrder : Form
     {
         static String connect = "Provider=Microsoft.JET.OLEDB.4.0;data source=DB1\\Furniture1.mdb";
         OleDbConnection con = new OleDbConnection(connect);
-
-        public ChangeCustomer()
+        public ChangeOrder()
         {
             InitializeComponent();
             con.Open();
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -33,7 +27,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "UPDATE Customer SET [FIO]='" + textBox1.Text + "',[Address]='" + textBox2.Text + "',[Phone]='" + textBox3.Text + "',[ID_employees]='" + textBox4.Text + "' WHERE ID_customer=" + textBox5.Text;
+                    string query = "UPDATE Order1 SET [ID_customer]='" + textBox1.Text + "',[ID_furniture]='" + textBox2.Text + "',[Data_order]='" + textBox3.Text + "',[Data_runtime]='" + textBox4.Text + "' WHERE ID_order=" + textBox5.Text;
 
                     OleDbCommand command = new OleDbCommand(query, con);
 
@@ -46,6 +40,11 @@ namespace CursSvet
                     MessageBox.Show(es.Message);
                 }
             }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

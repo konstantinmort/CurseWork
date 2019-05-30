@@ -201,7 +201,6 @@ namespace CursSvet
 
         private void Button5_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
             ChangeCustomer cS = new ChangeCustomer();
             cS.ShowDialog();
         }
@@ -337,6 +336,42 @@ namespace CursSvet
         {
             Application.Exit();
             con.Close();
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            ChangeFurniture cS = new ChangeFurniture();
+            cS.ShowDialog();
+        }
+
+        private void Button9_Click(object sender, EventArgs e)
+        {
+            ChangeOrder cS = new ChangeOrder();
+            cS.ShowDialog();
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            ChangeStock cS = new ChangeStock();
+            cS.ShowDialog();
+        }
+
+        private void КаталогToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button24_Click(object sender, EventArgs e)
+        {
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+                printDocument1.Print();
+        }
+
+        private void PrintDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            var bitmap = new Bitmap(Width, Height);
+            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
+            e.Graphics.DrawImage(bitmap, new Point(80, 70));
         }
     }
 }
