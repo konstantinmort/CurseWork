@@ -26,6 +26,7 @@ namespace CursSvet
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            con.Close();
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -33,7 +34,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "UPDATE Customer SET [FIO]='" + textBox1.Text + "',[Address]='" + textBox2.Text + "',[Phone]='" + textBox3.Text + "',[ID_employees]='" + textBox4.Text + "' WHERE ID_customer=" + textBox5.Text;
+                    string query = "UPDATE [Customer] SET [FIO]='" + textBox1.Text + "',[Address]='" + textBox2.Text + "',[Phone]='" + textBox3.Text + "',[ID_employees]='" + textBox4.Text + "' WHERE ID_customer=" + textBox5.Text;
 
                     OleDbCommand command = new OleDbCommand(query, con);
 
