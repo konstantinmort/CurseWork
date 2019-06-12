@@ -22,10 +22,10 @@ namespace CursSvet
         {
 
             InitializeComponent();
+
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            // открываем соединение с БД
             con.Open();
-           
-           
-          
         }
 
         private void Label1_Click(object sender, EventArgs e)
@@ -35,7 +35,6 @@ namespace CursSvet
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            con.Close();
             Application.Exit();
         }
 

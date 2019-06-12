@@ -832,6 +832,7 @@
             this.button25.TabIndex = 5;
             this.button25.Text = "Поиск";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.Button25_Click);
             // 
             // button24
             // 
@@ -864,12 +865,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(859, 418);
             this.Controls.Add(this.textBox34);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.tabControl1);
             this.Name = "Employees";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Сотрудник";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Employees_FormClosed);
             this.tabControl1.ResumeLayout(false);

@@ -330,112 +330,65 @@ namespace CursSvet
         private void Button13_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-            OleDbConnection con = new OleDbConnection(connect);
-            con.Open();
-            string query = "SELECT * FROM Customer ORDER BY ID_customer";
-            OleDbCommand command = new OleDbCommand(query, con);
-
-            OleDbDataReader reader = command.ExecuteReader();
-            List<string[]> data = new List<string[]>();
-
-            while (reader.Read())
-            {
-                data.Add(new string[5]);
-
-                data[data.Count - 1][0] = reader[0].ToString();
-                data[data.Count - 1][1] = reader[1].ToString();
-                data[data.Count - 1][2] = reader[2].ToString();
-                data[data.Count - 1][3] = reader[3].ToString();
-                data[data.Count - 1][4] = reader[4].ToString();
-            }
-            reader.Close();
-            con.Close();
-
-            foreach (string[] s in data)
-                dataGridView1.Rows.Add(s);
+            LoadData();
+            dataGridView2.Rows.Clear();
+            LoadData1();
+            dataGridView3.Rows.Clear();
+            LoadData2();
+            dataGridView4.Rows.Clear();
+            LoadData3();
+            dataGridView5.Rows.Clear();
+            LoadData4();
+            dataGridView6.Rows.Clear();
+            LoadData5();
         }
 
         private void Button14_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
+            LoadData();
             dataGridView2.Rows.Clear();
-            OleDbConnection con = new OleDbConnection(connect);
-            con.Open();
-            string query = "SELECT * FROM Furniture ORDER BY ID_furniture";
-            OleDbCommand command = new OleDbCommand(query, con);
-
-            OleDbDataReader reader = command.ExecuteReader();
-            List<string[]> data = new List<string[]>();
-
-            while (reader.Read())
-            {
-                data.Add(new string[5]);
-
-                data[data.Count - 1][0] = reader[0].ToString();
-                data[data.Count - 1][1] = reader[1].ToString();
-                data[data.Count - 1][2] = reader[2].ToString();
-                data[data.Count - 1][3] = reader[3].ToString();
-                data[data.Count - 1][4] = reader[4].ToString();
-            }
-            reader.Close();
-            con.Close();
-
-            foreach (string[] s in data)
-                dataGridView2.Rows.Add(s);
+            LoadData1();
+            dataGridView3.Rows.Clear();
+            LoadData2();
+            dataGridView4.Rows.Clear();
+            LoadData3();
+            dataGridView5.Rows.Clear();
+            LoadData4();
+            dataGridView6.Rows.Clear();
+            LoadData5();
         }
 
         private void Button15_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
+            LoadData();
+            dataGridView2.Rows.Clear();
+            LoadData1();
             dataGridView3.Rows.Clear();
-            OleDbConnection con = new OleDbConnection(connect);
-            con.Open();
-            string query = "SELECT * FROM Order1 ORDER BY ID_order ";
-            OleDbCommand command = new OleDbCommand(query, con);
-
-            OleDbDataReader reader = command.ExecuteReader();
-            List<string[]> data = new List<string[]>();
-
-            while (reader.Read())
-            {
-                data.Add(new string[5]);
-
-                data[data.Count - 1][0] = reader[0].ToString();
-                data[data.Count - 1][1] = reader[1].ToString();
-                data[data.Count - 1][2] = reader[2].ToString();
-                data[data.Count - 1][3] = reader[3].ToString();
-                data[data.Count - 1][4] = reader[4].ToString();
-            }
-            reader.Close();
-            con.Close();
-
-            foreach (string[] s in data)
-                dataGridView3.Rows.Add(s);
+            LoadData2();
+            dataGridView4.Rows.Clear();
+            LoadData3();
+            dataGridView5.Rows.Clear();
+            LoadData4();
+            dataGridView6.Rows.Clear();
+            LoadData5();
         }
 
         private void Button16_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
+            LoadData();
+            dataGridView2.Rows.Clear();
+            LoadData1();
+            dataGridView3.Rows.Clear();
+            LoadData2();
             dataGridView4.Rows.Clear();
-            OleDbConnection con = new OleDbConnection(connect);
-            con.Open();
-            string query = "SELECT * FROM stock ORDER BY ID_stock";
-            OleDbCommand command = new OleDbCommand(query, con);
-
-            OleDbDataReader reader = command.ExecuteReader();
-            List<string[]> data = new List<string[]>();
-
-            while (reader.Read())
-            {
-                data.Add(new string[4]);
-
-                data[data.Count - 1][0] = reader[0].ToString();
-                data[data.Count - 1][1] = reader[1].ToString();
-                data[data.Count - 1][2] = reader[2].ToString();
-                data[data.Count - 1][3] = reader[3].ToString();
-            }
-            reader.Close();
-            con.Close();
-
-            foreach (string[] s in data)
-                dataGridView4.Rows.Add(s);
+            LoadData3();
+            dataGridView5.Rows.Clear();
+            LoadData4();
+            dataGridView6.Rows.Clear();
+            LoadData5();
         }
 
         private void Button17_Click(object sender, EventArgs e)
@@ -457,29 +410,18 @@ namespace CursSvet
 
         private void Button18_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
+            LoadData();
+            dataGridView2.Rows.Clear();
+            LoadData1();
+            dataGridView3.Rows.Clear();
+            LoadData2();
+            dataGridView4.Rows.Clear();
+            LoadData3();
             dataGridView5.Rows.Clear();
-            OleDbConnection con = new OleDbConnection(connect);
-            con.Open();
-            string query = "SELECT * FROM [Authorization]";
-            OleDbCommand command = new OleDbCommand(query, con);
-
-            OleDbDataReader reader = command.ExecuteReader();
-            List<string[]> data = new List<string[]>();
-
-            while (reader.Read())
-            {
-                data.Add(new string[4]);
-
-                data[data.Count - 1][0] = reader[0].ToString();
-                data[data.Count - 1][1] = reader[1].ToString();
-                data[data.Count - 1][2] = reader[2].ToString();
-                data[data.Count - 1][3] = reader[3].ToString();
-            }
-            reader.Close();
-            con.Close();
-
-            foreach (string[] s in data)
-                dataGridView5.Rows.Add(s);
+            LoadData4();
+            dataGridView6.Rows.Clear();
+            LoadData5();
         }
 
         private void Button19_Click(object sender, EventArgs e)
@@ -501,29 +443,18 @@ namespace CursSvet
 
         private void Button22_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
+            LoadData();
+            dataGridView2.Rows.Clear();
+            LoadData1();
+            dataGridView3.Rows.Clear();
+            LoadData2();
+            dataGridView4.Rows.Clear();
+            LoadData3();
+            dataGridView5.Rows.Clear();
+            LoadData4();
             dataGridView6.Rows.Clear();
-            OleDbConnection con = new OleDbConnection(connect);
-            con.Open();
-            string query = "SELECT * FROM Employees";
-            OleDbCommand command = new OleDbCommand(query, con);
-
-            OleDbDataReader reader = command.ExecuteReader();
-            List<string[]> data = new List<string[]>();
-
-            while (reader.Read())
-            {
-                data.Add(new string[4]);
-
-                data[data.Count - 1][0] = reader[0].ToString();
-                data[data.Count - 1][1] = reader[1].ToString();
-                data[data.Count - 1][2] = reader[2].ToString();
-                data[data.Count - 1][3] = reader[3].ToString();
-            }
-            reader.Close();
-            con.Close();
-
-            foreach (string[] s in data)
-                dataGridView6.Rows.Add(s);
+            LoadData5();
         }
 
         private void Button8_Click(object sender, EventArgs e)
@@ -597,40 +528,40 @@ namespace CursSvet
 
         private void Button25_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < dataGridView3.RowCount; i++)
-                if (dataGridView3[1, i].FormattedValue.ToString().
-                    Contains(textBox34.Text.Trim()))
+            for (int i = 0; i < dataGridView3.Rows.Count - 1; i++)
+                if (dataGridView3[1, i].Value.ToString() != textBox34.Text)
                 {
-                    dataGridView3.CurrentCell = dataGridView3[0, i];
-                    return;
+                    dataGridView3.Rows.RemoveAt(i);
+                    i--;
+
                 }
-            for (int i = 0; i < dataGridView1.RowCount; i++)
-                if (dataGridView1[1, i].FormattedValue.ToString().
-                    Contains(textBox34.Text.Trim()))
+            for (int i = 0; i < dataGridView2.Rows.Count - 1; i++)
+                if (dataGridView2[2, i].Value.ToString() != textBox34.Text)
                 {
-                    dataGridView1.CurrentCell = dataGridView1[0, i];
-                    return;
+                    dataGridView2.Rows.RemoveAt(i);
+                    i--;
+
                 }
-            for (int i = 0; i < dataGridView5.RowCount; i++)
-                if (dataGridView5[1, i].FormattedValue.ToString().
-                    Contains(textBox34.Text.Trim()))
+            for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+                if (dataGridView1[1, i].Value.ToString() != textBox34.Text)
                 {
-                    dataGridView5.CurrentCell = dataGridView5[0, i];
-                    return;
+                    dataGridView1.Rows.RemoveAt(i);
+                    i--;
+
                 }
-            for (int i = 0; i < dataGridView2.RowCount; i++)
-                if (dataGridView2[0, i].FormattedValue.ToString().
-                    Contains(textBox34.Text.Trim()))
+            for (int i = 0; i < dataGridView4.Rows.Count - 1; i++)
+                if (dataGridView4[2, i].Value.ToString() != textBox34.Text)
                 {
-                    dataGridView2.CurrentCell = dataGridView2[0, i];
-                    return;
+                    dataGridView4.Rows.RemoveAt(i);
+                    i--;
+
                 }
         }
-
+        
         private void Button24_Click(object sender, EventArgs e)
         {
-            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
-                printDocument1.Print();
+            Pechat cS = new Pechat();
+            cS.ShowDialog();
         }
 
         private void PrintPreviewDialog1_Load(object sender, EventArgs e)
@@ -640,9 +571,7 @@ namespace CursSvet
 
         private void PrintDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            var bitmap = new Bitmap(Width, Height);
-            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
-            e.Graphics.DrawImage(bitmap, new Point(100, 70));
+
         }
     }
 }
