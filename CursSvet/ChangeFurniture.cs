@@ -42,7 +42,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "UPDATE Furniture SET [ID_stock]='" + textBox1.Text + "',[Title]='" + textBox2.Text + "',[Price]='" + textBox3.Text + "',[Amount]='" + textBox4.Text + "' WHERE ID_furniture=" + comboBox1.Text;
+                    string query = "UPDATE Furniture SET [ID_stock]='" + textBox1.Text + "',[Title]='" + textBox2.Text + "',[Price]='" + textBox3.Text + "',[Amount]='" + textBox4.Text + "',[Opisanie]='" + textBox5.Text + "' WHERE ID_furniture=" + comboBox1.Text;
 
                     OleDbCommand command = new OleDbCommand(query, con);
 
@@ -67,7 +67,7 @@ namespace CursSvet
             try
             {
                 string query = "SELECT ID_furniture, [ID_stock], [Title]," +
-                    " [Price], [Amount] FROM Furniture WHERE ID_furniture =" + comboBox1.SelectedItem;
+                    " [Price], [Amount], Opisanie FROM Furniture WHERE ID_furniture =" + comboBox1.SelectedItem;
                 OleDbCommand command = new OleDbCommand(query, con);
                 OleDbDataReader reader = command.ExecuteReader();
                 while (reader.Read())
@@ -76,6 +76,7 @@ namespace CursSvet
                     textBox2.Text = reader[2].ToString();
                     textBox3.Text = reader[3].ToString();
                     textBox4.Text = reader[4].ToString();
+                    textBox5.Text = reader[5].ToString();
                 }
             }
             catch (Exception es)
