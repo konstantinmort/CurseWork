@@ -312,34 +312,57 @@ namespace CursSvet
 
         private void Button25_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < dataGridView3.Rows.Count - 1; i++)
-                if (dataGridView3[1, i].Value.ToString() != textBox34.Text)
-                {
-                    dataGridView3.Rows.RemoveAt(i);
-                    i--;
-
-                }
-            for (int i = 0; i < dataGridView2.Rows.Count - 1; i++)
-                if (dataGridView2[2, i].Value.ToString() != textBox34.Text)
-                {
-                    dataGridView2.Rows.RemoveAt(i);
-                    i--;
-
-                }
             for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
-                if (dataGridView1[1, i].Value.ToString() != textBox34.Text)
+            {
+                bool isVisible = false;
+                for (int j = 0; j < dataGridView1.Columns.Count; j++)
                 {
-                    dataGridView1.Rows.RemoveAt(i);
-                    i--;
-
+                    if (dataGridView1[j, i].Value.ToString() == textBox34.Text)
+                    {
+                        isVisible = true;
+                    }
                 }
+                dataGridView1.Rows[i].Visible = isVisible;
+            }
+
+            for (int i = 0; i < dataGridView2.Rows.Count - 1; i++)
+            {
+                bool isVisible = false;
+                for (int j = 0; j < dataGridView2.Columns.Count; j++)
+                {
+                    if (dataGridView2[j, i].Value.ToString() == textBox34.Text)
+                    {
+                        isVisible = true;
+                    }
+                }
+                dataGridView2.Rows[i].Visible = isVisible;
+            }
+
+            for (int i = 0; i < dataGridView3.Rows.Count - 1; i++)
+            {
+                bool isVisible = false;
+                for (int j = 0; j < dataGridView3.Columns.Count; j++)
+                {
+                    if (dataGridView3[j, i].Value.ToString() == textBox34.Text)
+                    {
+                        isVisible = true;
+                    }
+                }
+                dataGridView3.Rows[i].Visible = isVisible;
+            }
+
             for (int i = 0; i < dataGridView4.Rows.Count - 1; i++)
-                if (dataGridView4[2, i].Value.ToString() != textBox34.Text)
+            {
+                bool isVisible = false;
+                for (int j = 0; j < dataGridView4.Columns.Count; j++)
                 {
-                    dataGridView4.Rows.RemoveAt(i);
-                    i--;
-
+                    if (dataGridView4[j, i].Value.ToString() == textBox34.Text)
+                    {
+                        isVisible = true;
+                    }
                 }
+                dataGridView4.Rows[i].Visible = isVisible;
+            }
         }
 
         private void TextBox3_KeyPress(object sender, KeyPressEventArgs e)
@@ -435,6 +458,11 @@ namespace CursSvet
             {
                 e.Handled = true;
             }
+        }
+
+        private void TextBox3_TextChanged(object sender, EventArgs e)
+        {
+     
         }
     }
 }

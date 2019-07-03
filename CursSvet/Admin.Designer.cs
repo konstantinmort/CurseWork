@@ -160,6 +160,12 @@
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage3.SuspendLayout();
@@ -177,6 +183,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label33);
             this.tabPage4.Controls.Add(this.textBox31);
             this.tabPage4.Controls.Add(this.textBox23);
             this.tabPage4.Controls.Add(this.label23);
@@ -205,6 +212,7 @@
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(220, 20);
             this.textBox31.TabIndex = 17;
+            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox23
             // 
@@ -275,6 +283,7 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(959, 84);
+            this.textBox11.MaxLength = 11;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 20);
             this.textBox11.TabIndex = 5;
@@ -351,6 +360,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label32);
             this.tabPage3.Controls.Add(this.textBox30);
             this.tabPage3.Controls.Add(this.textBox22);
             this.tabPage3.Controls.Add(this.textBox21);
@@ -382,6 +392,7 @@
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(220, 20);
             this.textBox30.TabIndex = 17;
+            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox22
             // 
@@ -552,6 +563,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label31);
             this.tabPage2.Controls.Add(this.label28);
             this.tabPage2.Controls.Add(this.textBox35);
             this.tabPage2.Controls.Add(this.textBox29);
@@ -600,6 +612,7 @@
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(220, 20);
             this.textBox29.TabIndex = 17;
+            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox16
             // 
@@ -776,6 +789,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label30);
             this.tabPage1.Controls.Add(this.textBox28);
             this.tabPage1.Controls.Add(this.label19);
             this.tabPage1.Controls.Add(this.label18);
@@ -807,6 +821,7 @@
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(220, 20);
             this.textBox28.TabIndex = 16;
+            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label19
             // 
@@ -927,6 +942,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(959, 84);
+            this.textBox3.MaxLength = 11;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 6;
@@ -992,6 +1008,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.label29);
             this.tabPage5.Controls.Add(this.textBox32);
             this.tabPage5.Controls.Add(this.button23);
             this.tabPage5.Controls.Add(this.textBox17);
@@ -1019,6 +1036,7 @@
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(220, 20);
             this.textBox32.TabIndex = 17;
+            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button23
             // 
@@ -1070,6 +1088,7 @@
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(959, 84);
+            this.textBox14.MaxLength = 1;
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 20);
             this.textBox14.TabIndex = 6;
@@ -1153,6 +1172,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label34);
             this.tabPage6.Controls.Add(this.textBox33);
             this.tabPage6.Controls.Add(this.button22);
             this.tabPage6.Controls.Add(this.button21);
@@ -1181,6 +1201,7 @@
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(220, 20);
             this.textBox33.TabIndex = 17;
+            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button22
             // 
@@ -1353,8 +1374,9 @@
             // textBox34
             // 
             this.textBox34.Location = new System.Drawing.Point(125, 0);
+            this.textBox34.Multiline = true;
             this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(240, 20);
+            this.textBox34.Size = new System.Drawing.Size(240, 21);
             this.textBox34.TabIndex = 3;
             // 
             // printDocument1
@@ -1372,6 +1394,60 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.PrintPreviewDialog1_Load);
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(836, 231);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(99, 13);
+            this.label29.TabIndex = 18;
+            this.label29.Text = "Введите id записи";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(836, 202);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(99, 13);
+            this.label30.TabIndex = 19;
+            this.label30.Text = "Введите id записи";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(837, 202);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(99, 13);
+            this.label31.TabIndex = 20;
+            this.label31.Text = "Введите id записи";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(836, 202);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(99, 13);
+            this.label32.TabIndex = 19;
+            this.label32.Text = "Введите id записи";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(836, 202);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(99, 13);
+            this.label33.TabIndex = 19;
+            this.label33.Text = "Введите id записи";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(836, 202);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(99, 13);
+            this.label34.TabIndex = 19;
+            this.label34.Text = "Введите id записи";
             // 
             // Admin
             // 
@@ -1544,5 +1620,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label34;
     }
 }

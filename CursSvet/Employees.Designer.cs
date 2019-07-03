@@ -273,9 +273,11 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(959, 84);
+            this.textBox3.MaxLength = 11;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 6;
+            this.textBox3.TextChanged += new System.EventHandler(this.TextBox3_TextChanged);
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox3_KeyPress);
             // 
             // textBox2
@@ -787,6 +789,7 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(959, 84);
+            this.textBox11.MaxLength = 11;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 20);
             this.textBox11.TabIndex = 5;
