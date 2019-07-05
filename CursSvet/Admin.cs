@@ -256,7 +256,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "INSERT INTO Order1 (ID_order, ID_customer, ID_furniture, Data_order, Data_runtime) VALUES ('" + textBox20.Text + "','" + textBox21.Text + "','" + textBox22.Text + "','" + textBox7.Text + "','" + textBox8.Text + "')";
+                    string query = "INSERT INTO Order1 (ID_customer, ID_furniture, Data_order, Data_runtime) VALUES ('" + textBox21.Text + "','" + textBox22.Text + "','" + dateTimePicker1.Value + "','" + dateTimePicker2.Value + "')";
                     OleDbCommand command = new OleDbCommand(query, con);
                     command.ExecuteNonQuery();
                     MessageBox.Show("Добавление успешно выполнено");

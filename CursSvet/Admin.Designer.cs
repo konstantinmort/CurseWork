@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label33 = new System.Windows.Forms.Label();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -49,18 +50,15 @@
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label32 = new System.Windows.Forms.Label();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -71,6 +69,7 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label31 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.textBox35 = new System.Windows.Forms.TextBox();
             this.textBox29 = new System.Windows.Forms.TextBox();
@@ -96,6 +95,7 @@
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label30 = new System.Windows.Forms.Label();
             this.textBox28 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -119,6 +119,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label29 = new System.Windows.Forms.Label();
             this.textBox32 = new System.Windows.Forms.TextBox();
             this.button23 = new System.Windows.Forms.Button();
             this.textBox17 = new System.Windows.Forms.TextBox();
@@ -137,6 +138,7 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label34 = new System.Windows.Forms.Label();
             this.textBox33 = new System.Windows.Forms.TextBox();
             this.button22 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
@@ -160,12 +162,8 @@
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage3.SuspendLayout();
@@ -205,6 +203,15 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Склад";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(836, 202);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(99, 13);
+            this.label33.TabIndex = 19;
+            this.label33.Text = "Введите id записи";
             // 
             // textBox31
             // 
@@ -360,19 +367,17 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.dateTimePicker2);
+            this.tabPage3.Controls.Add(this.dateTimePicker1);
             this.tabPage3.Controls.Add(this.label32);
             this.tabPage3.Controls.Add(this.textBox30);
             this.tabPage3.Controls.Add(this.textBox22);
             this.tabPage3.Controls.Add(this.textBox21);
-            this.tabPage3.Controls.Add(this.textBox20);
             this.tabPage3.Controls.Add(this.label22);
             this.tabPage3.Controls.Add(this.label21);
-            this.tabPage3.Controls.Add(this.label20);
             this.tabPage3.Controls.Add(this.button15);
             this.tabPage3.Controls.Add(this.button10);
             this.tabPage3.Controls.Add(this.button9);
-            this.tabPage3.Controls.Add(this.textBox8);
-            this.tabPage3.Controls.Add(this.textBox7);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.button3);
@@ -386,6 +391,15 @@
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.TabPage3_Click);
             // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(836, 202);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(99, 13);
+            this.label32.TabIndex = 19;
+            this.label32.Text = "Введите id записи";
+            // 
             // textBox30
             // 
             this.textBox30.Location = new System.Drawing.Point(839, 218);
@@ -396,7 +410,7 @@
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(959, 58);
+            this.textBox22.Location = new System.Drawing.Point(959, 32);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(100, 20);
             this.textBox22.TabIndex = 14;
@@ -404,24 +418,16 @@
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(959, 32);
+            this.textBox21.Location = new System.Drawing.Point(959, 6);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(100, 20);
             this.textBox21.TabIndex = 13;
             this.textBox21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox21_KeyPress);
             // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(959, 6);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 20);
-            this.textBox20.TabIndex = 12;
-            this.textBox20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox20_KeyPress);
-            // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(836, 61);
+            this.label22.Location = new System.Drawing.Point(836, 35);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(67, 13);
             this.label22.TabIndex = 11;
@@ -430,20 +436,11 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(836, 35);
+            this.label21.Location = new System.Drawing.Point(836, 9);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(87, 13);
             this.label21.TabIndex = 10;
             this.label21.Text = "Код покупателя";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(836, 9);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(68, 13);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Код заказа ";
             // 
             // button15
             // 
@@ -475,26 +472,10 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(959, 110);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 5;
-            this.textBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox8_KeyPress);
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(959, 84);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 4;
-            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox7_KeyPress);
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(836, 113);
+            this.label8.Location = new System.Drawing.Point(836, 87);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(98, 13);
             this.label8.TabIndex = 3;
@@ -503,7 +484,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(836, 87);
+            this.label7.Location = new System.Drawing.Point(836, 61);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 13);
             this.label7.TabIndex = 2;
@@ -511,7 +492,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(839, 136);
+            this.button3.Location = new System.Drawing.Point(839, 110);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(220, 23);
             this.button3.TabIndex = 1;
@@ -589,6 +570,15 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Мебель";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(837, 202);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(99, 13);
+            this.label31.TabIndex = 20;
+            this.label31.Text = "Введите id записи";
             // 
             // label28
             // 
@@ -815,6 +805,15 @@
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.TabPage1_Click);
             // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(836, 202);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(99, 13);
+            this.label30.TabIndex = 19;
+            this.label30.Text = "Введите id записи";
+            // 
             // textBox28
             // 
             this.textBox28.Location = new System.Drawing.Point(839, 218);
@@ -1030,6 +1029,15 @@
             this.tabPage5.Text = "Пользователи";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(836, 231);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(99, 13);
+            this.label29.TabIndex = 18;
+            this.label29.Text = "Введите id записи";
+            // 
             // textBox32
             // 
             this.textBox32.Location = new System.Drawing.Point(839, 247);
@@ -1194,6 +1202,15 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Сотрудники";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(836, 202);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(99, 13);
+            this.label34.TabIndex = 19;
+            this.label34.Text = "Введите id записи";
             // 
             // textBox33
             // 
@@ -1395,59 +1412,19 @@
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.PrintPreviewDialog1_Load);
             // 
-            // label29
+            // dateTimePicker1
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(836, 231);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(99, 13);
-            this.label29.TabIndex = 18;
-            this.label29.Text = "Введите id записи";
+            this.dateTimePicker1.Location = new System.Drawing.Point(959, 61);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
+            this.dateTimePicker1.TabIndex = 20;
             // 
-            // label30
+            // dateTimePicker2
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(836, 202);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(99, 13);
-            this.label30.TabIndex = 19;
-            this.label30.Text = "Введите id записи";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(837, 202);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(99, 13);
-            this.label31.TabIndex = 20;
-            this.label31.Text = "Введите id записи";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(836, 202);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(99, 13);
-            this.label32.TabIndex = 19;
-            this.label32.Text = "Введите id записи";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(836, 202);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(99, 13);
-            this.label33.TabIndex = 19;
-            this.label33.Text = "Введите id записи";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(836, 202);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(99, 13);
-            this.label34.TabIndex = 19;
-            this.label34.Text = "Введите id записи";
+            this.dateTimePicker2.Location = new System.Drawing.Point(959, 87);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(100, 20);
+            this.dateTimePicker2.TabIndex = 21;
             // 
             // Admin
             // 
@@ -1505,8 +1482,6 @@
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.DataGridView dataGridView4;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button3;
@@ -1587,10 +1562,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button button22;
@@ -1626,5 +1599,7 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
