@@ -50,6 +50,8 @@
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label32 = new System.Windows.Forms.Label();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
@@ -100,7 +102,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
             this.button13 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -162,8 +163,7 @@
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage3.SuspendLayout();
@@ -390,6 +390,20 @@
             this.tabPage3.Text = "Заказ";
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.TabPage3_Click);
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(959, 87);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(100, 20);
+            this.dateTimePicker2.TabIndex = 21;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(959, 61);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
+            this.dateTimePicker1.TabIndex = 20;
             // 
             // label32
             // 
@@ -779,12 +793,12 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.comboBox1);
             this.tabPage1.Controls.Add(this.label30);
             this.tabPage1.Controls.Add(this.textBox28);
             this.tabPage1.Controls.Add(this.label19);
             this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.textBox19);
-            this.tabPage1.Controls.Add(this.textBox18);
             this.tabPage1.Controls.Add(this.button13);
             this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.button5);
@@ -847,14 +861,6 @@
             this.textBox19.Size = new System.Drawing.Size(100, 20);
             this.textBox19.TabIndex = 13;
             this.textBox19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox19_KeyPress);
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(959, 110);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 20);
-            this.textBox18.TabIndex = 12;
-            this.textBox18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox18_KeyPress);
             // 
             // button13
             // 
@@ -999,10 +1005,10 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tabControl1.Location = new System.Drawing.Point(0, 25);
+            this.tabControl1.Location = new System.Drawing.Point(0, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1073, 495);
+            this.tabControl1.Size = new System.Drawing.Size(1073, 493);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage5
@@ -1198,7 +1204,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1065, 469);
+            this.tabPage6.Size = new System.Drawing.Size(1065, 467);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Сотрудники";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1341,7 +1347,7 @@
             this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Left;
             this.dataGridView6.Location = new System.Drawing.Point(3, 3);
             this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.Size = new System.Drawing.Size(827, 463);
+            this.dataGridView6.Size = new System.Drawing.Size(827, 461);
             this.dataGridView6.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn15
@@ -1370,9 +1376,9 @@
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Location = new System.Drawing.Point(0, 0);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(63, 19);
+            this.button24.Size = new System.Drawing.Size(63, 21);
             this.button24.TabIndex = 1;
-            this.button24.Text = "Печать";
+            this.button24.Text = "Договор";
             this.button24.UseVisualStyleBackColor = true;
             this.button24.Click += new System.EventHandler(this.Button24_Click);
             // 
@@ -1412,19 +1418,13 @@
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.Load += new System.EventHandler(this.PrintPreviewDialog1_Load);
             // 
-            // dateTimePicker1
+            // comboBox1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(959, 61);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
-            this.dateTimePicker1.TabIndex = 20;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(959, 87);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(100, 20);
-            this.dateTimePicker2.TabIndex = 21;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(959, 110);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 21);
+            this.comboBox1.TabIndex = 20;
             // 
             // Admin
             // 
@@ -1546,7 +1546,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -1601,5 +1600,6 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

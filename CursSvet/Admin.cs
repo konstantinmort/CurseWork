@@ -27,6 +27,21 @@ namespace CursSvet
             LoadData3();
             LoadData4();
             LoadData5();
+            try
+            {
+                comboBox1.Items.Clear();
+                string query = "SELECT ID_employees FROM Employees";
+                OleDbCommand command = new OleDbCommand(query, con);
+                OleDbDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    comboBox1.Items.Add(reader[0]);
+                }
+            }
+            catch (Exception es)
+            {
+                MessageBox.Show(es.Message);
+            }
         }
 
         private void LoadData()
@@ -212,7 +227,7 @@ namespace CursSvet
             {
                 try
                 {
-                    string query = "INSERT INTO Customer (ID_customer,FIO, Address, Phone, ID_employees) VALUES ('" + textBox19.Text + "','" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox18.Text + "')";
+                    string query = "INSERT INTO Customer (ID_customer,FIO, Address, Phone, ID_employees) VALUES ('" + textBox19.Text + "','" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + comboBox1.Text + "')";
                     OleDbCommand command = new OleDbCommand(query, con);
                     command.ExecuteNonQuery();
 
