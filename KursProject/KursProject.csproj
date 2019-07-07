@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{754DAFA2-CBE2-4CF5-BAD4-5E0EC0FD6D59}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KursProject</RootNamespace>
+    <AssemblyName>KursProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBranch.Designer.cs">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCon.Designer.cs">
+      <DependentUpon>AddCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCust.Designer.cs">
+      <DependentUpon>AddCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmp.Designer.cs">
+      <DependentUpon>AddEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInc.Designer.cs">
+      <DependentUpon>AddInc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="agent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agent.Designer.cs">
+      <DependentUpon>agent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authorizations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorizations.Designer.cs">
+      <DependentUpon>Authorizations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateCust.Designer.cs">
+      <DependentUpon>CreateCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditBranch.Designer.cs">
+      <DependentUpon>EditBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCon.Designer.cs">
+      <DependentUpon>EditCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCust.Designer.cs">
+      <DependentUpon>EditCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCustom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCustom.Designer.cs">
+      <DependentUpon>EditCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEmp.Designer.cs">
+      <DependentUpon>EditEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditInc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInc.Designer.cs">
+      <DependentUpon>EditInc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graf.Designer.cs">
+      <DependentUpon>Graf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddBranch.resx">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCon.resx">
+      <DependentUpon>AddCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCust.resx">
+      <DependentUpon>AddCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmp.resx">
+      <DependentUpon>AddEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInc.resx">
+      <DependentUpon>AddInc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agent.resx">
+      <DependentUpon>agent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authorizations.resx">
+      <DependentUpon>Authorizations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateCust.resx">
+      <DependentUpon>CreateCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditBranch.resx">
+      <DependentUpon>EditBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCon.resx">
+      <DependentUpon>EditCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCust.resx">
+      <DependentUpon>EditCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCustom.resx">
+      <DependentUpon>EditCustom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmp.resx">
+      <DependentUpon>EditEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInc.resx">
+      <DependentUpon>EditInc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graf.resx">
+      <DependentUpon>Graf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="d0ef1122ffd9b5330aeaf829bb14edb0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_drop.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
