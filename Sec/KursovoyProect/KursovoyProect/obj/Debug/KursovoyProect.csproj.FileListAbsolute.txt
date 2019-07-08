@@ -1,0 +1,182 @@
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Курсовая\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddInform.resources
+C:\Users\Михаил\Desktop\d\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeInform.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddInform.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddSpec.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeInform.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeSpecialy.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\Завтра в тех\TRPO\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddEmployer.resources
+C:\Users\Михаил\Desktop\Завтра в тех\ТРПО\Kursovay\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeEmployer.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddEmployer.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeEmployer.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Курсовая Комоцкий\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddEmployer.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeEmployer.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Coos\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddEmployer.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Employeer_Panel.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.User_Panel.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Registration1.resources
+C:\Users\david\Desktop\Практика Биржа труда\Курсовая биржа труда\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeEmployer.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddEmployer.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeEmployer.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Employeer_Panel.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\david\Desktop\Сдача в аренду торговых площадей\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddArenda.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe.config
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\bin\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\bin\Debug\System.Data.SqlClient.dll
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csprojAssemblyReference.cache
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddArenda.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddEmployer.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddVacancy.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Autorization.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Admin_panel.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeEmployer.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeJobless.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeVacancy.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Employeer_Panel.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Properties.Resources.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.GenerateResource.cache
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.csproj.CopyComplete
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.exe
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.pdb
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.AddMen.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.ChangeMen.resources
+C:\Users\david\Desktop\Sec\KursovoyProect\KursovoyProect\obj\Debug\KursovoyProect.Rass.resources
